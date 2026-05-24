@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+   width: 100%;
+background: #2c2631;
+color: white;
+overflow: hidden;
+}
+main{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    background-image: url('./back.png');
+    background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   border-bottom-left-radius: 90% 25%;
+   border-bottom-right-radius:  90% 25% ;
+   font-family: fantasy;
+    
+}
+nav{
+    height: 12%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+   
+}
+.left{
+    margin-left: 10%;
+    display: flex;
+     align-items: center;
+    gap: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo{
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.ri-arrow-right-up-line{
+    color: rgb(235, 197, 7);
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-right: 23%;
+}
+.content{
+    position: absolute;
+  top: 25%;
+  left: 18%;
+  z-index: 1;
+
+
+}
+.content h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -20px;
+
+}
+.content h1{
+    font-family: fantasy;
+    font-size: 80px;
+    font-weight: 900;
+    word-spacing: 70px;
+    
+
+}
+.content p{
+    margin-left: 73%;
+    font-size: 15px;
+   margin-top: -35px;
+}
+.content .monkey{
+    position: absolute;
+    top: -33%;
+    left: 11%;
+    z-index:2;
+    
+}
+.content .mint_btn{
+    padding: 20px 55px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #f6d370, #ba9734);
+    color: black;
+    letter-spacing: 1px;
+    font-size: 10px;
+    position: relative;
+    margin-left: 39%;
+   top: 20px;
+    z-index: 5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: bold;
+    font-size: 10px;
+}
+ .vision h3{
+    font-size: 25px;
+    padding: 10px 10px;
+    margin-left: 43%;
+    letter-spacing: 2px;
+
+}
+.vision .bar{
+   margin-top: -17%;
+   margin-left: 20%;
+  
+}
+.vision .fl{
+  opacity: 0.7;
+
+}
+.vision .para1{
+    font-size: 12px;
+    margin-top: -16%;
+    margin-left: 22%;
+    font-weight: 100;
+ 
+}
+.vision p{
+    font-size: 12px;
+            margin-top: -72px;
+            margin-left: 50%;
+            font-weight: 100;
+
+       
+}
